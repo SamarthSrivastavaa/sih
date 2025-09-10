@@ -57,12 +57,12 @@ const data = {
     },
     {
       title: "Impact Analysis",
-      url: "#",
+      url: "/impactAnalysis",
       icon: IconTarget,
     },
     {
       title: "Scenario Builder",
-      url: "#",
+      url: "/scenarioBuilder",
       icon: IconBuildingSkyscraper,
     },
     {
@@ -139,17 +139,17 @@ const data = {
   documents: [
     {
       name: "Case Studies",
-      url: "#",
+      url: "/case-studies",
       icon: IconBook,
     },
     {
       name: "Your Reports",
-      url: "#",
+      url: "/reports",
       icon: IconReport,
     },
     {
       name: "Official Guidelines",
-      url: "#",
+      url: "/guidelines",
       icon: IconFileText,
     },
   ],
