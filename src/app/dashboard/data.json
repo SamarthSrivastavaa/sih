@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "header": "Carbon Footprint Assessment",
+    "type": "Environmental Impact",
+    "status": "In Process",
+    "target": "92.7%",
+    "limit": "85%",
+    "reviewer": "Dr. Sarah Chen"
+  },
+  {
+    "id": 2,
+    "header": "Water Usage Optimization",
+    "type": "Resource Management",
+    "status": "Done",
+    "target": "78.4%",
+    "limit": "75%",
+    "reviewer": "Dr. Sarah Chen"
+  },
+  {
+    "id": 3,
+    "header": "Waste Recovery Analysis",
+    "type": "Circular Economy",
+    "status": "Done",
+    "target": "85.2%",
+    "limit": "80%",
+    "reviewer": "Dr. Sarah Chen"
+  },
+  {
+    "id": 4,
+    "header": "Air Quality Monitoring",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "94.1%",
+    "limit": "90%",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 5,
+    "header": "Energy Efficiency Audit",
+    "type": "Resource Management",
+    "status": "In Process",
+    "target": "88.3%",
+    "limit": "85%",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 6,
+    "header": "Hazardous Waste Management",
+    "type": "Environmental Impact",
+    "status": "In Process",
+    "target": "91.5%",
+    "limit": "88%",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 7,
+    "header": "Soil Contamination Assessment",
+    "type": "Environmental Impact",
+    "status": "In Process",
+    "target": "89.7%",
+    "limit": "85%",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 8,
+    "header": "Biodiversity Impact Study",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "96.2%",
+    "limit": "90%",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 9,
+    "header": "Noise Pollution Control",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "93.8%",
+    "limit": "88%",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 10,
+    "header": "Renewable Energy Integration",
+    "type": "Resource Management",
+    "status": "Done",
+    "target": "87.4%",
+    "limit": "80%",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 11,
+    "header": "Supply Chain Sustainability",
+    "type": "Circular Economy",
+    "status": "Done",
+    "target": "82.6%",
+    "limit": "75%",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 12,
+    "header": "Life Cycle Assessment (LCA)",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "95.1%",
+    "limit": "90%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 13,
+    "header": "Environmental Compliance Report",
+    "type": "Regulatory",
+    "status": "Done",
+    "target": "98.3%",
+    "limit": "95%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 14,
+    "header": "Stakeholder Engagement Plan",
+    "type": "Social Impact",
+    "status": "Done",
+    "target": "91.7%",
+    "limit": "85%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 15,
+    "header": "Climate Risk Assessment",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "89.4%",
+    "limit": "85%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 16,
+    "header": "Data Security & Privacy",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "94.6%",
+    "limit": "90%",
+    "reviewer": "Dr. Priya Singh"
+  },
+  {
+    "id": 17,
+    "header": "Real-time Monitoring Setup",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "97.2%",
+    "limit": "95%",
+    "reviewer": "Dr. Priya Singh"
+  },
+  {
+    "id": 18,
+    "header": "AI-Powered Analytics",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "93.8%",
+    "limit": "90%",
+    "reviewer": "Dr. Priya Singh"
+  },
+  {
+    "id": 19,
+    "header": "Predictive Maintenance System",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "88.9%",
+    "limit": "85%",
+    "reviewer": "Dr. Priya Singh"
+  },
+  {
+    "id": 20,
+    "header": "Circular Economy Metrics",
+    "type": "Circular Economy",
+    "status": "Done",
+    "target": "86.3%",
+    "limit": "80%",
+    "reviewer": "Dr. Alex Thompson"
+  },
+  {
+    "id": 21,
+    "header": "Resource Efficiency Optimization",
+    "type": "Resource Management",
+    "status": "In Process",
+    "target": "84.7%",
+    "limit": "80%",
+    "reviewer": "Dr. Alex Thompson"
+  },
+  {
+    "id": 22,
+    "header": "Environmental Impact Prediction",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "92.1%",
+    "limit": "88%",
+    "reviewer": "Dr. Alex Thompson"
+  },
+  {
+    "id": 23,
+    "header": "Compliance Automation",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "90.5%",
+    "limit": "85%",
+    "reviewer": "Dr. Nina Patel"
+  },
+  {
+    "id": 24,
+    "header": "Sustainability Reporting",
+    "type": "Regulatory",
+    "status": "Done",
+    "target": "96.8%",
+    "limit": "90%",
+    "reviewer": "Dr. Nina Patel"
+  },
+  {
+    "id": 25,
+    "header": "Green Technology Integration",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "87.2%",
+    "limit": "80%",
+    "reviewer": "Dr. Nina Patel"
+  },
+  {
+    "id": 26,
+    "header": "Environmental Data Management",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "94.3%",
+    "limit": "90%",
+    "reviewer": "Dr. David Kim"
+  },
+  {
+    "id": 27,
+    "header": "Risk Mitigation Strategies",
+    "type": "Environmental Impact",
+    "status": "In Process",
+    "target": "89.6%",
+    "limit": "85%",
+    "reviewer": "Dr. David Kim"
+  },
+  {
+    "id": 28,
+    "header": "Continuous Improvement Plan",
+    "type": "Circular Economy",
+    "status": "Done",
+    "target": "91.4%",
+    "limit": "85%",
+    "reviewer": "Dr. David Kim"
+  },
+  {
+    "id": 29,
+    "header": "Performance Benchmarking",
+    "type": "Resource Management",
+    "status": "In Process",
+    "target": "86.9%",
+    "limit": "80%",
+    "reviewer": "Dr. Maria Garcia"
+  },
+  {
+    "id": 30,
+    "header": "Innovation & R&D Tracking",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "88.7%",
+    "limit": "80%",
+    "reviewer": "Dr. Maria Garcia"
+  },
+  {
+    "id": 31,
+    "header": "Community Impact Assessment",
+    "type": "Social Impact",
+    "status": "In Process",
+    "target": "85.3%",
+    "limit": "80%",
+    "reviewer": "Dr. Maria Garcia"
+  },
+  {
+    "id": 32,
+    "header": "Emergency Response Protocol",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "97.6%",
+    "limit": "95%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 33,
+    "header": "Training & Capacity Building",
+    "type": "Social Impact",
+    "status": "In Process",
+    "target": "83.1%",
+    "limit": "80%",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 34,
+    "header": "Transparency & Disclosure",
+    "type": "Regulatory",
+    "status": "Done",
+    "target": "95.7%",
+    "limit": "90%",
+    "reviewer": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 35,
+    "header": "Technology Transfer Plan",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "81.9%",
+    "limit": "75%",
+    "reviewer": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 36,
+    "header": "Long-term Sustainability Vision",
+    "type": "Strategic Planning",
+    "status": "Done",
+    "target": "93.2%",
+    "limit": "85%",
+    "reviewer": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 37,
+    "header": "Integration with Existing Systems",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "87.8%",
+    "limit": "80%",
+    "reviewer": "Dr. Michael Chen"
+  },
+  {
+    "id": 38,
+    "header": "Quality Assurance Framework",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "96.4%",
+    "limit": "90%",
+    "reviewer": "Dr. Michael Chen"
+  },
+  {
+    "id": 39,
+    "header": "Regulatory Compliance Monitoring",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "92.7%",
+    "limit": "88%",
+    "reviewer": "Dr. Michael Chen"
+  },
+  {
+    "id": 40,
+    "header": "Mobile Monitoring Capability",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "89.5%",
+    "limit": "80%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 41,
+    "header": "Data Migration & Integration",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "84.2%",
+    "limit": "80%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 42,
+    "header": "Quality Control Protocols",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "97.1%",
+    "limit": "95%",
+    "reviewer": "Dr. Priya Singh"
+  },
+  {
+    "id": 43,
+    "header": "Stakeholder Analysis & Mapping",
+    "type": "Social Impact",
+    "status": "In Process",
+    "target": "88.6%",
+    "limit": "80%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 44,
+    "header": "Environmental Impact Assessment",
+    "type": "Environmental Impact",
+    "status": "Done",
+    "target": "94.8%",
+    "limit": "90%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 45,
+    "header": "Intellectual Property Management",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "91.3%",
+    "limit": "85%",
+    "reviewer": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 46,
+    "header": "Customer Support Framework",
+    "type": "Social Impact",
+    "status": "Done",
+    "target": "93.7%",
+    "limit": "85%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 47,
+    "header": "Version Control & Updates",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "86.4%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 48,
+    "header": "Continuous Integration Pipeline",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "95.2%",
+    "limit": "90%",
+    "reviewer": "Dr. Michael Chen"
+  },
+  {
+    "id": 49,
+    "header": "Regulatory Compliance",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "89.8%",
+    "limit": "85%",
+    "reviewer": "Dr. Michael Chen"
+  },
+  {
+    "id": 50,
+    "header": "Authentication & Security",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "98.1%",
+    "limit": "95%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 51,
+    "header": "Analytics & Reporting Framework",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "87.5%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 52,
+    "header": "Cloud Infrastructure Setup",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "94.6%",
+    "limit": "90%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 53,
+    "header": "Network Security Measures",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "92.3%",
+    "limit": "88%",
+    "reviewer": "Dr. Lisa Wong"
+  },
+  {
+    "id": 54,
+    "header": "Project Timeline & Milestones",
+    "type": "Strategic Planning",
+    "status": "Done",
+    "target": "91.8%",
+    "limit": "85%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 55,
+    "header": "Resource Allocation & Planning",
+    "type": "Strategic Planning",
+    "status": "In Process",
+    "target": "88.2%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 56,
+    "header": "Team Structure & Roles",
+    "type": "Strategic Planning",
+    "status": "Done",
+    "target": "94.5%",
+    "limit": "85%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 57,
+    "header": "Communication Protocols",
+    "type": "Strategic Planning",
+    "status": "In Process",
+    "target": "86.7%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 58,
+    "header": "Success Metrics & KPIs",
+    "type": "Strategic Planning",
+    "status": "Done",
+    "target": "93.9%",
+    "limit": "85%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 59,
+    "header": "International Standards Compliance",
+    "type": "Regulatory",
+    "status": "In Process",
+    "target": "89.1%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 60,
+    "header": "Backup & Recovery Procedures",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "96.7%",
+    "limit": "90%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 61,
+    "header": "Monitoring & Alerting System",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "88.4%",
+    "limit": "80%",
+    "reviewer": "Dr. Daniel Park"
+  },
+  {
+    "id": 62,
+    "header": "Review Guidelines & Standards",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "95.6%",
+    "limit": "90%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 63,
+    "header": "Documentation Standards",
+    "type": "Technical Implementation",
+    "status": "In Process",
+    "target": "87.3%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 64,
+    "header": "Release Management Process",
+    "type": "Strategic Planning",
+    "status": "Done",
+    "target": "92.9%",
+    "limit": "85%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 65,
+    "header": "Feature Prioritization Matrix",
+    "type": "Strategic Planning",
+    "status": "In Process",
+    "target": "85.8%",
+    "limit": "80%",
+    "reviewer": "Dr. Emma Davis"
+  },
+  {
+    "id": 66,
+    "header": "Technical Debt Assessment",
+    "type": "Technical Implementation",
+    "status": "Done",
+    "target": "91.2%",
+    "limit": "85%",
+    "reviewer": "Dr. Eddie Lake"
+  },
+  {
+    "id": 67,
+    "header": "Capacity Planning & Scaling",
+    "type": "Strategic Planning",
+    "status": "In Process",
+    "target": "84.6%",
+    "limit": "80%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 68,
+    "header": "Service Level Agreements",
+    "type": "Regulatory",
+    "status": "Done",
+    "target": "97.4%",
+    "limit": "90%",
+    "reviewer": "Dr. Jamik Tashpulatov"
+  },
+  {
+    "id": 69,
+    "header": "Methane: 1,250 ppm (CRITICAL - 2.5x Safe Limit)",
+    "type": "Gas Leakage",
+    "status": "Critical Alert",
+    "target": "1,250 ppm",
+    "limit": "500 ppm",
+    "reviewer": "Dr. Sarah Chen"
+  },
+  {
+    "id": 70,
+    "header": "CO₂ Emissions - Main Stack",
+    "type": "Gas Leakage",
+    "status": "Safe Range",
+    "target": "2,847 tCO₂",
+    "limit": "3,000 tCO₂",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 71,
+    "header": "Sulfur Dioxide Leak - Processing Unit",
+    "type": "Gas Leakage",
+    "status": "Warning",
+    "target": "45 ppm",
+    "limit": "30 ppm",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 72,
+    "header": "Hydrogen Sulfide Leak - Storage Tank",
+    "type": "Gas Leakage",
+    "status": "Critical Alert",
+    "target": "85 ppm",
+    "limit": "10 ppm",
+    "reviewer": "Dr. Michael Rodriguez"
+  },
+  {
+    "id": 73,
+    "header": "Mercury Vapor Leak - Smelting Unit",
+    "type": "Gas Leakage",
+    "status": "Critical Alert",
+    "target": "0.15 mg/m³",
+    "limit": "0.05 mg/m³",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 74,
+    "header": "Cyanide Leak - Gold Processing",
+    "type": "Gas Leakage",
+    "status": "Critical Alert",
+    "target": "0.8 mg/L",
+    "limit": "0.1 mg/L",
+    "reviewer": "Dr. Elena Martinez"
+  },
+  {
+    "id": 75,
+    "header": "Groundwater Contamination - Benzene",
+    "type": "Gas Leakage",
+    "status": "Critical Alert",
+    "target": "15 ppb",
+    "limit": "5 ppb",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 76,
+    "header": "Ammonia Gas Release - Cooling System",
+    "type": "Gas Leakage",
+    "status": "Warning",
+    "target": "25 ppm",
+    "limit": "20 ppm",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 77,
+    "header": "Heavy Metal Dust - Lead",
+    "type": "Gas Leakage",
+    "status": "Warning",
+    "target": "0.8 μg/m³",
+    "limit": "0.5 μg/m³",
+    "reviewer": "Dr. Alex Thompson"
+  },
+  {
+    "id": 78,
+    "header": "Asbestos Dust - Demolition Site",
+    "type": "Gas Leakage",
+    "status": "Warning",
+    "target": "0.08 f/cc",
+    "limit": "0.01 f/cc",
+    "reviewer": "Dr. David Kim"
+  },
+  {
+    "id": 79,
+    "header": "Particulate Matter (PM2.5) - Stack Emission",
+    "type": "Gas Leakage",
+    "status": "Safe Range",
+    "target": "18 μg/m³",
+    "limit": "25 μg/m³",
+    "reviewer": "Dr. James Wilson"
+  },
+  {
+    "id": 80,
+    "header": "Nitrogen Oxide (NOx) - Combustion Unit",
+    "type": "Gas Leakage",
+    "status": "Safe Range",
+    "target": "45 ppm",
+    "limit": "50 ppm",
+    "reviewer": "Dr. Eddie Lake"
+  }
+]
