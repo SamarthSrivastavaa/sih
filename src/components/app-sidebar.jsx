@@ -47,7 +47,7 @@ const data = {
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      url: "/dashboard",
       icon: IconDashboard,
     },
     {
@@ -66,8 +66,8 @@ const data = {
       icon: IconBuildingSkyscraper,
     },
     {
-      title: "Recommendations",
-      url: "#",
+      title: "Recommendations / Warnings",
+      url: "/alarm",
       icon: IconBulb,
     },
   ],
