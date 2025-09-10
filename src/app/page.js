@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import AnimatedCounter from "@/components/animated-counter";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -100,109 +101,87 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center p-6 rounded-2xl bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-700/90 hover:shadow-xl hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 shadow-lg">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">99.2%</div>
+              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
+                <AnimatedCounter to={99.2} decimals={1} suffix="%" duration={900} />
+              </div>
               <div className="text-slate-600 dark:text-slate-400">Compliance Rate</div>
             </div>
             <div className="text-center p-6 rounded-2xl bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-700/90 hover:shadow-xl hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">-35%</div>
+              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+                <AnimatedCounter to={-35} decimals={0} suffix="%" duration={900} />
+              </div>
               <div className="text-slate-600 dark:text-slate-400">Carbon Footprint</div>
             </div>
             <div className="text-center p-6 rounded-2xl bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-700/90 hover:shadow-xl hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 shadow-lg">
-              <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">85%</div>
+              <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">
+                <AnimatedCounter to={85} decimals={0} suffix="%" duration={900} />
+              </div>
               <div className="text-slate-600 dark:text-slate-400">Waste Recovery</div>
             </div>
             <div className="text-center p-6 rounded-2xl bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-700/90 hover:shadow-xl hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 shadow-lg">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">24/7</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">
+                <AnimatedCounter to={24} decimals={0} suffix="/7" duration={900} />
+              </div>
               <div className="text-slate-600 dark:text-slate-400">Live Monitoring</div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Features Section (simplified) */}
       <section id="features" className="py-24 px-6">
         <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
-              Comprehensive Sustainability Management
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-3 tracking-tight">
+              Built for real operations
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              Everything you need to monitor, analyze, and improve your environmental impact in one powerful platform.
+              Simple, focused features that do the job — without the fluff.
             </p>
           </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/30 dark:to-blue-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconChartBar className="w-8 h-8 text-blue-600 dark:text-blue-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Impact Analysis</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Real-time environmental impact tracking with advanced analytics and predictive modeling.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900/30 dark:to-green-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconTarget className="w-8 h-8 text-green-600 dark:text-green-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Scenario Builder</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Model different operational scenarios to optimize sustainability outcomes and compliance.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/30 dark:to-purple-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconShield className="w-8 h-8 text-purple-600 dark:text-purple-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Compliance Monitoring</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Automated compliance tracking with real-time alerts and regulatory reporting.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-100 to-orange-200 dark:from-orange-900/30 dark:to-orange-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconTrendingUp className="w-8 h-8 text-orange-600 dark:text-orange-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Live Monitoring</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  24/7 real-time monitoring of emissions, waste, and environmental parameters.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900/30 dark:to-emerald-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconFileText className="w-8 h-8 text-emerald-600 dark:text-emerald-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Smart Recommendations</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  AI-powered insights and recommendations to improve sustainability performance.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-slate-200/60 dark:border-slate-700/60">
-              <CardHeader className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-200 dark:from-red-900/30 dark:to-red-800/30 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <IconAlertTriangle className="w-8 h-8 text-red-600 dark:text-red-400" />
-                </div>
-                <CardTitle className="text-lg font-bold mb-3">Risk Management</CardTitle>
-                <CardDescription className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Proactive risk identification and mitigation strategies for environmental compliance.
-                </CardDescription>
-              </CardHeader>
-            </Card>
+          <div className="mx-auto max-w-5xl grid gap-4 md:grid-cols-2">
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center"><IconChartBar className="w-5 h-5 text-blue-600 dark:text-blue-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Impact Analysis</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Live trends and deltas you can act on right now.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-green-100 dark:bg-green-900/30 flex items-center justify-center"><IconTarget className="w-5 h-5 text-green-600 dark:text-green-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Scenario Builder</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Test off‑peak shifts, PPAs, and routing before you commit.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center"><IconShield className="w-5 h-5 text-purple-600 dark:text-purple-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Compliance Monitoring</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">WAD CN, TSS, methane — limits watched 24/7 with audit logs.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center"><IconTrendingUp className="w-5 h-5 text-orange-600 dark:text-orange-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Live Monitoring</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Real‑time signals across emissions, waste and water balance.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center"><IconFileText className="w-5 h-5 text-emerald-600 dark:text-emerald-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Smart Recommendations</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Routing to paste, aggregates, bricks, SCM — updated per shift.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 rounded-xl border bg-white/70 p-4 backdrop-blur-md dark:bg-slate-800/70 dark:border-slate-700">
+              <div className="w-9 h-9 rounded-lg bg-red-100 dark:bg-red-900/30 flex items-center justify-center"><IconAlertTriangle className="w-5 h-5 text-red-600 dark:text-red-400" /></div>
+              <div>
+                <h4 className="font-semibold text-slate-900 dark:text-white">Risk Management</h4>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Early hotspot detection and simple, trackable mitigations.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
