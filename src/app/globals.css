@@ -120,3 +120,38 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Warning glow animation for sidebar button */
+@keyframes warning-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.3), 0 0 10px rgba(239, 68, 68, 0.2), 0 0 15px rgba(239, 68, 68, 0.1);
+    background-color: rgba(239, 68, 68, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.6), 0 0 20px rgba(239, 68, 68, 0.4), 0 0 30px rgba(239, 68, 68, 0.2);
+    background-color: rgba(239, 68, 68, 0.1);
+  }
+}
+
+@keyframes warning-blink {
+  0%, 50% {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: rgb(239, 68, 68);
+  }
+  25%, 75% {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.warning-glow-animation {
+  animation: warning-glow 2s ease-in-out infinite, warning-blink 1.5s ease-in-out infinite;
+  position: relative;
+  overflow: visible;
+}
+
+.warning-glow-animation:hover {
+  animation-play-state: paused;
+  background-color: rgba(239, 68, 68, 0.15);
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}

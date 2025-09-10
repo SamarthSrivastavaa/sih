@@ -102,7 +102,34 @@ export const schema = z.object({
   target: z.string(),
   limit: z.string(),
   reviewer: z.string(),
+  completionDate: z.string().optional(),
+  dueDate: z.string().optional(),
 })
+function formatDateIso(date) {
+  const year = date.getFullYear()
+  const month = String(date.getMonth() + 1).padStart(2, "0")
+  const day = String(date.getDate()).padStart(2, "0")
+  return `${year}-${month}-${day}`
+}
+
+function generateStableDateFromId(id, offset, direction) {
+  const base = new Date()
+  const days = (id % offset) + 1
+  const ms = days * 24 * 60 * 60 * 1000
+  const when = direction === "past" ? new Date(base.getTime() - ms) : new Date(base.getTime() + ms)
+  return formatDateIso(when)
+}
+
+function getComplianceDateText(item) {
+  const isDone = String(item.status).toLowerCase() === "done"
+  if (isDone) {
+    const date = item.completionDate || generateStableDateFromId(item.id, 21, "past")
+    return `Done on ${date}`
+  }
+  const due = item.dueDate || generateStableDateFromId(item.id, 14, "past")
+  return `Due since ${due}`
+}
+
 
 // Create a separate component for the drag handle
 function DragHandle({
@@ -177,16 +204,23 @@ const columns = [
   {
     accessorKey: "status",
     header: "Compliance Status",
-    cell: ({ row }) => (
-      <Badge variant="outline" className="text-muted-foreground px-1.5">
-        {row.original.status === "Done" ? (
-          <IconCircleCheckFilled className="fill-green-500 dark:fill-green-400" />
-        ) : (
-          <IconLoader />
-        )}
-        {row.original.status}
-      </Badge>
-    ),
+    cell: ({ row }) => {
+      const dateText = getComplianceDateText(row.original)
+      const isDone = String(row.original.status).toLowerCase() === "done"
+      return (
+        <div className="flex flex-col">
+          <Badge variant="outline" className="text-muted-foreground px-1.5 gap-1">
+            {isDone ? (
+              <IconCircleCheckFilled className="fill-green-500 dark:fill-green-400" />
+            ) : (
+              <IconLoader />
+            )}
+            {row.original.status}
+          </Badge>
+          <div className="mt-1 text-[11px] text-muted-foreground">{dateText}</div>
+        </div>
+      )
+    },
   },
   {
     accessorKey: "target",

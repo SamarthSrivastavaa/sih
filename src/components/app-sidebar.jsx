@@ -52,7 +52,7 @@ const data = {
     },
     {
       title: "Lifecycle",
-      url: "#",
+      url: "/lifecycle",
       icon: IconListDetails,
     },
     {
